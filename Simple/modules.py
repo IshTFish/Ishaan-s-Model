@@ -8,3 +8,7 @@ def fct_1(a, b):
 def fct_2(b, c):
   f = b**2 + 2*c
   return f
+
+def fct_3(name: str):
+  b = 'hello' + name
+  return b
